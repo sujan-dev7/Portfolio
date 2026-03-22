@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useState } from "react"
-import { Send, Mail, MapPin, Phone, Github, Linkedin, Discord, ArrowRight } from "lucide-react"
+import { Send, Mail, MapPin, Phone, Github, Linkedin, Instagram, ArrowRight } from "lucide-react"
 
 const contactInfo = [
   { icon: Mail, label: "Email", value: "sujanshrestha53574@gmail.com", href: "mailto:sujanshrestha53574@gmail.com" },
@@ -13,7 +13,7 @@ const contactInfo = [
 const socialLinks = [
   { icon: Github, href: "https://github.com/sujan-dev7", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/sujan-shrestha-3787a737a/", label: "LinkedIn" },
-  { icon: Discord, href: "https://discordapp.com/users/1466428916330926204", label: "Discord" },
+  { icon: Instagram, href: "https://www.instagram.com/accounts/login/", label: "Instagram" },
 ]
 
 export function ContactSection() {
