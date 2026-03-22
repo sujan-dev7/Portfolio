@@ -2,18 +2,18 @@
 
 import { motion } from "framer-motion"
 import { useState } from "react"
-import { Send, Mail, MapPin, Phone, Github, Linkedin, Instagram, ArrowRight } from "lucide-react"
+import { Send, Mail, MapPin, Phone, Github, Linkedin, Discord, ArrowRight } from "lucide-react"
 
 const contactInfo = [
   { icon: Mail, label: "Email", value: "sujanshrestha53574@gmail.com", href: "mailto:sujanshrestha53574@gmail.com" },
   { icon: MapPin, label: "Location", value: "Lalitpur, Nepal", href: "#" },
-  { icon: Phone, label: "Phone", value: "+977 9701034656", href: "tel:+9779701034656" },
+  { icon: Phone, label: "Phone", value: "+977 9700000000", href: "tel:+9779700000000" },
 ]
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/sujan-dev7", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/sujan-shrestha-3787a737a/", label: "LinkedIn" },
-  { icon: Instagram, href: "https://www.instagram.com/cosmo_orb.su/", label: "Instagram" },
+  { icon: Discord, href: "https://discordapp.com/users/1466428916330926204", label: "Discord" },
 ]
 
 export function ContactSection() {

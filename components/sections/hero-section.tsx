@@ -3,12 +3,12 @@
 import { motion } from "framer-motion"
 import { Hero3D } from "@/components/hero-3d"
 import { TypingEffect } from "@/components/typing-effect"
-import { ArrowDown, Github, Linkedin, Instagram } from "lucide-react"
+import { ArrowDown, Github, Linkedin, Discord } from "lucide-react"
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/sujan-dev7", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/sujan-shrestha-3787a737a/", label: "LinkedIn" },
-  { icon: Instagram, href: "https://www.instagram.com/cosmo_orb.su/", label: "Instagram" },
+  { icon: Discord, href: "https://discordapp.com/users/1466428916330926204", label: "Discord" },
 ]
 
 export function HeroSection() {
