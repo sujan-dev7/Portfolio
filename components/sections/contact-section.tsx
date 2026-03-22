@@ -13,7 +13,7 @@ const contactInfo = [
 const socialLinks = [
   { icon: Github, href: "https://github.com/sujan-dev7", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/sujan-shrestha-3787a737a/", label: "LinkedIn" },
-  { icon: Discord, href: "https://discordapp.com/users/1466428916330926204", label: "Discord" },
+ { icon: Instagram, href: "https://www.instagram.com/", label: "Instagram" },
 ]
 
 export function ContactSection() {
